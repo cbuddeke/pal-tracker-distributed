@@ -49,7 +49,7 @@ public FlowTest()
         .Database("tracker_timesheets_dotnet_test")
         .SetEnvironmentVariable("DISABLE_AUTH", "true")
         .SetEnvironmentVariable("REGISTRATION_SERVER_ENDPOINT", _registrationServer.Url())
-       .SetEnvironmentVariable("EUREKA__CLIENT__SHOULDFETCHREGISTRY", "false")
+        .SetEnvironmentVariable("EUREKA__CLIENT__SHOULDFETCHREGISTRY", "false")
         .Build();
  }
 
